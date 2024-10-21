@@ -49,7 +49,7 @@ export default function Home() {
         <div className="flex flex-col gap-4 mt-2">
         {DUMMY_DATA.map((expense) => {
           return (
-            <ExpenseCategoryItem color={expense.color} title={expense.title} amount={expense.amount}/>
+            <ExpenseCategoryItem key={expense.id} color={expense.color} title={expense.title} amount={expense.amount}/>
           )
         })}
         </div>
