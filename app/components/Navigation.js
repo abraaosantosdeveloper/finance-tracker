@@ -16,7 +16,7 @@ function Nav() {
                 </div>
 
                 {/* Right header side */}
-                <nav className="flex items-center gap-2">
+                <nav className="flex items-center gap-4">
                     <div className="stats w-[40px] h-[40px] px-1 py-1"><BiBarChartAlt2 className="text-3xl" /></div>
                     <div><button className="btn btn-red" >Log out</button></div>
                 </nav>
