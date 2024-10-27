@@ -9,11 +9,14 @@
     button{
         @apply hover:scale-110 transition-all duration-100
     }
+    input{
+        @apply px-4 py-2 bg-slate-300 rounded-xl
+    }
 }
 
 @layer utilities{
     .btn{
-        @apply px-4 py-2 text-sm  capitalize rounded-xl
+        @apply self-start px-4 py-2 text-sm  capitalize rounded-xl
 
     }
     .btn-red{
@@ -30,5 +33,9 @@
 
     .stats{
         @apply cursor-pointer hover:bg-slate-400 rounded-full transition-all duration-100
+    }
+
+    .input-group{
+        @apply flex flex-col gap-4
     }
 }
